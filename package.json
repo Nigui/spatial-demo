@@ -14,12 +14,14 @@
     "start:android": "quasar dev -m capacitor -T android",
     "start:ios": "quasar dev -m capacitor -T ios",
     "start:electron": "quasar dev -m electron",
+    "start:bex": "quasar dev -m bex",
     "build:spa": "quasar build",
     "build:ssr": "quasar build -m ssr",
     "build:pwa": "quasar build -m pwa",
     "build:android": "quasar build -m capacitor -T android",
     "build:ios": "quasar build -m capacitor -T ios",
-    "build:electron": "quasar build -m electron"
+    "build:electron": "quasar build -m electron",
+    "build:bex": "quasar build -m bex"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",

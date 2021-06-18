@@ -1,0 +1,7 @@
+{
+  "appId": "io.nigui.demo.spatial",
+  "appName": "Spacial-Demo",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "www"
+}

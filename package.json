@@ -10,8 +10,12 @@
     "test": "echo \"No test specified\" && exit 0",
     "start:spa": "quasar dev",
     "start:ssr": "quasar dev -m ssr",
+    "start:pwa": "quasar dev -m pwa",
+    "start:android": "quasar dev -m capacitor -T android",
     "build:spa": "quasar build",
-    "build:ssr": "quasar build -m ssr"
+    "build:ssr": "quasar build -m ssr",
+    "build:pwa": "quasar build -m pwa",
+    "build:android": "quasar build -m capacitor -T android"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",

@@ -13,11 +13,13 @@
     "start:pwa": "quasar dev -m pwa",
     "start:android": "quasar dev -m capacitor -T android",
     "start:ios": "quasar dev -m capacitor -T ios",
+    "start:electron": "quasar dev -m electron",
     "build:spa": "quasar build",
     "build:ssr": "quasar build -m ssr",
     "build:pwa": "quasar build -m pwa",
     "build:android": "quasar build -m capacitor -T android",
-    "build:ios": "quasar build -m capacitor -T ios"
+    "build:ios": "quasar build -m capacitor -T ios",
+    "build:electron": "quasar build -m electron"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
@@ -34,6 +36,10 @@
     "@typescript-eslint/eslint-plugin": "^4.16.1",
     "@typescript-eslint/parser": "^4.16.1",
     "babel-eslint": "^10.0.1",
+    "devtron": "^1.4.0",
+    "electron": "^9.0.0",
+    "electron-debug": "^3.0.1",
+    "electron-devtools-installer": "^3.0.0",
     "eslint": "^7.21.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-vue": "^7.7.0",

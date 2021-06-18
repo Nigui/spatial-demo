@@ -12,10 +12,12 @@
     "start:ssr": "quasar dev -m ssr",
     "start:pwa": "quasar dev -m pwa",
     "start:android": "quasar dev -m capacitor -T android",
+    "start:ios": "quasar dev -m capacitor -T ios",
     "build:spa": "quasar build",
     "build:ssr": "quasar build -m ssr",
     "build:pwa": "quasar build -m pwa",
-    "build:android": "quasar build -m capacitor -T android"
+    "build:android": "quasar build -m capacitor -T android",
+    "build:ios": "quasar build -m capacitor -T ios"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",

@@ -9,7 +9,9 @@
     "lint": "eslint --ext .js,.ts,.vue ./",
     "test": "echo \"No test specified\" && exit 0",
     "start:spa": "quasar dev",
-    "build:spa": "quasar build"
+    "start:ssr": "quasar dev -m ssr",
+    "build:spa": "quasar build",
+    "build:ssr": "quasar build -m ssr"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
